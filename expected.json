@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "packs",
+   "args": [
+    "585",
+    "50"
+   ],
+   "expect": "The 585 napkins at 50 napkins a pack take 12 packs, the last pack holding 35 napkins."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "585",
+    "80"
+   ],
+   "expect": "The 585 napkins at 80 napkins a week last 7 full weeks with 25 napkins left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "12",
+    "6.40",
+    "585"
+   ],
+   "expect": "The 12 packs at $6.40 a pack come to $76.80, $0.13 a napkin."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "585",
+    "12"
+   ],
+   "expect": "The 585 napkins at 12 napkins a minute take 49 minutes, 0 hours 49 minutes."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 napkin at 1 napkin a pack takes 1 pack, the last pack holding 1 napkin."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "550",
+    "50"
+   ],
+   "expect": "The 550 napkins at 50 napkins a pack take 11 packs, the last pack holding 50 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 napkins at 1000 napkins a pack take 1000 packs, the last pack holding 1000 napkins."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 napkin at 1 napkin a week lasts 1 full week with 0 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "560",
+    "80"
+   ],
+   "expect": "The 560 napkins at 80 napkins a week last 7 full weeks with 0 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 napkins at 100000 napkins a week last 10 full weeks with 0 napkins left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 pack at $0.01 a pack comes to $0.01, $0.01 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 packs at $999.99 a pack come to $99999000.00, $100.00 a napkin."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 napkin at 1 napkin a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 napkins at 1 napkin a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 napkins at 100 napkins a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "453835",
+    "984"
+   ],
+   "expect": "The 453835 napkins at 984 napkins a pack take 462 packs, the last pack holding 211 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "637066",
+    "38"
+   ],
+   "expect": "The 637066 napkins at 38 napkins a pack take 16765 packs, the last pack holding 34 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "321384",
+    "255"
+   ],
+   "expect": "The 321384 napkins at 255 napkins a pack take 1261 packs, the last pack holding 84 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "980240",
+    "314"
+   ],
+   "expect": "The 980240 napkins at 314 napkins a pack take 3122 packs, the last pack holding 246 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "686561",
+    "997"
+   ],
+   "expect": "The 686561 napkins at 997 napkins a pack take 689 packs, the last pack holding 625 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "304676",
+    "344"
+   ],
+   "expect": "The 304676 napkins at 344 napkins a pack take 886 packs, the last pack holding 236 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "506037",
+    "487"
+   ],
+   "expect": "The 506037 napkins at 487 napkins a pack take 1040 packs, the last pack holding 44 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "386786",
+    "435"
+   ],
+   "expect": "The 386786 napkins at 435 napkins a pack take 890 packs, the last pack holding 71 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "344850",
+    "134"
+   ],
+   "expect": "The 344850 napkins at 134 napkins a pack take 2574 packs, the last pack holding 68 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "900935",
+    "26"
+   ],
+   "expect": "The 900935 napkins at 26 napkins a pack take 34652 packs, the last pack holding 9 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "260294",
+    "93"
+   ],
+   "expect": "The 260294 napkins at 93 napkins a pack take 2799 packs, the last pack holding 80 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "983402",
+    "606"
+   ],
+   "expect": "The 983402 napkins at 606 napkins a pack take 1623 packs, the last pack holding 470 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "355338",
+    "814"
+   ],
+   "expect": "The 355338 napkins at 814 napkins a pack take 437 packs, the last pack holding 434 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "420097",
+    "728"
+   ],
+   "expect": "The 420097 napkins at 728 napkins a pack take 578 packs, the last pack holding 41 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "883640",
+    "389"
+   ],
+   "expect": "The 883640 napkins at 389 napkins a pack take 2272 packs, the last pack holding 221 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "886191",
+    "173"
+   ],
+   "expect": "The 886191 napkins at 173 napkins a pack take 5123 packs, the last pack holding 85 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "702258",
+    "874"
+   ],
+   "expect": "The 702258 napkins at 874 napkins a pack take 804 packs, the last pack holding 436 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "993958",
+    "673"
+   ],
+   "expect": "The 993958 napkins at 673 napkins a pack take 1477 packs, the last pack holding 610 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "649349",
+    "788"
+   ],
+   "expect": "The 649349 napkins at 788 napkins a pack take 825 packs, the last pack holding 37 napkins."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "393625",
+    "566"
+   ],
+   "expect": "The 393625 napkins at 566 napkins a pack take 696 packs, the last pack holding 255 napkins."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "769238",
+    "54551"
+   ],
+   "expect": "The 769238 napkins at 54551 napkins a week last 14 full weeks with 5524 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "464728",
+    "41035"
+   ],
+   "expect": "The 464728 napkins at 41035 napkins a week last 11 full weeks with 13343 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "136707",
+    "86066"
+   ],
+   "expect": "The 136707 napkins at 86066 napkins a week last 1 full week with 50641 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "887802",
+    "62758"
+   ],
+   "expect": "The 887802 napkins at 62758 napkins a week last 14 full weeks with 9190 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "299137",
+    "11621"
+   ],
+   "expect": "The 299137 napkins at 11621 napkins a week last 25 full weeks with 8612 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "531788",
+    "88291"
+   ],
+   "expect": "The 531788 napkins at 88291 napkins a week last 6 full weeks with 2042 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "977065",
+    "43249"
+   ],
+   "expect": "The 977065 napkins at 43249 napkins a week last 22 full weeks with 25587 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "137925",
+    "1671"
+   ],
+   "expect": "The 137925 napkins at 1671 napkins a week last 82 full weeks with 903 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "197467",
+    "90129"
+   ],
+   "expect": "The 197467 napkins at 90129 napkins a week last 2 full weeks with 17209 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "939864",
+    "63106"
+   ],
+   "expect": "The 939864 napkins at 63106 napkins a week last 14 full weeks with 56380 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "512557",
+    "47558"
+   ],
+   "expect": "The 512557 napkins at 47558 napkins a week last 10 full weeks with 36977 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "527581",
+    "29263"
+   ],
+   "expect": "The 527581 napkins at 29263 napkins a week last 18 full weeks with 847 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "398900",
+    "8265"
+   ],
+   "expect": "The 398900 napkins at 8265 napkins a week last 48 full weeks with 2180 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "457512",
+    "91859"
+   ],
+   "expect": "The 457512 napkins at 91859 napkins a week last 4 full weeks with 90076 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "437692",
+    "94943"
+   ],
+   "expect": "The 437692 napkins at 94943 napkins a week last 4 full weeks with 57920 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "824891",
+    "99000"
+   ],
+   "expect": "The 824891 napkins at 99000 napkins a week last 8 full weeks with 32891 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "926362",
+    "71356"
+   ],
+   "expect": "The 926362 napkins at 71356 napkins a week last 12 full weeks with 70090 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "176379",
+    "39652"
+   ],
+   "expect": "The 176379 napkins at 39652 napkins a week last 4 full weeks with 17771 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "894216",
+    "30741"
+   ],
+   "expect": "The 894216 napkins at 30741 napkins a week last 29 full weeks with 2727 napkins left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "527009",
+    "57351"
+   ],
+   "expect": "The 527009 napkins at 57351 napkins a week last 9 full weeks with 10850 napkins left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "85422",
+    "877.58",
+    "978048"
+   ],
+   "expect": "The 85422 packs at $877.58 a pack come to $74964638.76, $76.65 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21422",
+    "545.62",
+    "850105"
+   ],
+   "expect": "The 21422 packs at $545.62 a pack come to $11688271.64, $13.75 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24710",
+    "336.35",
+    "823114"
+   ],
+   "expect": "The 24710 packs at $336.35 a pack come to $8311208.50, $10.10 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "97930",
+    "685.77",
+    "885987"
+   ],
+   "expect": "The 97930 packs at $685.77 a pack come to $67157456.10, $75.80 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38442",
+    "856.23",
+    "521711"
+   ],
+   "expect": "The 38442 packs at $856.23 a pack come to $32915193.66, $63.09 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43900",
+    "57.99",
+    "751237"
+   ],
+   "expect": "The 43900 packs at $57.99 a pack come to $2545761.00, $3.39 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94936",
+    "298.23",
+    "780131"
+   ],
+   "expect": "The 94936 packs at $298.23 a pack come to $28312763.28, $36.29 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58829",
+    "309.85",
+    "841420"
+   ],
+   "expect": "The 58829 packs at $309.85 a pack come to $18228165.65, $21.66 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "97595",
+    "51.1",
+    "22834"
+   ],
+   "expect": "The 97595 packs at $51.10 a pack come to $4987104.50, $218.41 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1660",
+    "309.39",
+    "820235"
+   ],
+   "expect": "The 1660 packs at $309.39 a pack come to $513587.40, $0.63 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75484",
+    "667.19",
+    "577642"
+   ],
+   "expect": "The 75484 packs at $667.19 a pack come to $50362169.96, $87.19 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45757",
+    "448.89",
+    "261785"
+   ],
+   "expect": "The 45757 packs at $448.89 a pack come to $20539859.73, $78.46 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30500",
+    "48.99",
+    "721439"
+   ],
+   "expect": "The 30500 packs at $48.99 a pack come to $1494195.00, $2.07 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "44487",
+    "622.19",
+    "197695"
+   ],
+   "expect": "The 44487 packs at $622.19 a pack come to $27679366.53, $140.01 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69737",
+    "505.45",
+    "343251"
+   ],
+   "expect": "The 69737 packs at $505.45 a pack come to $35248566.65, $102.69 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83595",
+    "541",
+    "9013"
+   ],
+   "expect": "The 83595 packs at $541.00 a pack come to $45224895.00, $5017.74 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67553",
+    "221.94",
+    "762229"
+   ],
+   "expect": "The 67553 packs at $221.94 a pack come to $14992712.82, $19.67 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81598",
+    "259.81",
+    "142140"
+   ],
+   "expect": "The 81598 packs at $259.81 a pack come to $21199976.38, $149.15 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51044",
+    "140.86",
+    "420306"
+   ],
+   "expect": "The 51044 packs at $140.86 a pack come to $7190057.84, $17.11 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "4926",
+    "17.37",
+    "564515"
+   ],
+   "expect": "The 4926 packs at $17.37 a pack come to $85564.62, $0.15 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67707",
+    "965.69",
+    "699854"
+   ],
+   "expect": "The 67707 packs at $965.69 a pack come to $65383972.83, $93.43 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "36733",
+    "660.6",
+    "442780"
+   ],
+   "expect": "The 36733 packs at $660.60 a pack come to $24265819.80, $54.80 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5732",
+    "112.62",
+    "163555"
+   ],
+   "expect": "The 5732 packs at $112.62 a pack come to $645537.84, $3.95 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "44829",
+    "870.76",
+    "801110"
+   ],
+   "expect": "The 44829 packs at $870.76 a pack come to $39035300.04, $48.73 a napkin."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40189",
+    "553.35",
+    "366472"
+   ],
+   "expect": "The 40189 packs at $553.35 a pack come to $22238583.15, $60.68 a napkin."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "513512",
+    "84"
+   ],
+   "expect": "The 513512 napkins at 84 napkins a minute take 6114 minutes, 101 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "69186",
+    "46"
+   ],
+   "expect": "The 69186 napkins at 46 napkins a minute take 1505 minutes, 25 hours 5 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "217495",
+    "39"
+   ],
+   "expect": "The 217495 napkins at 39 napkins a minute take 5577 minutes, 92 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "227627",
+    "87"
+   ],
+   "expect": "The 227627 napkins at 87 napkins a minute take 2617 minutes, 43 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "6248",
+    "82"
+   ],
+   "expect": "The 6248 napkins at 82 napkins a minute take 77 minutes, 1 hour 17 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "841088",
+    "12"
+   ],
+   "expect": "The 841088 napkins at 12 napkins a minute take 70091 minutes, 1168 hours 11 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "388512",
+    "78"
+   ],
+   "expect": "The 388512 napkins at 78 napkins a minute take 4981 minutes, 83 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "977328",
+    "2"
+   ],
+   "expect": "The 977328 napkins at 2 napkins a minute take 488664 minutes, 8144 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "628569",
+    "5"
+   ],
+   "expect": "The 628569 napkins at 5 napkins a minute take 125714 minutes, 2095 hours 14 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "11004",
+    "17"
+   ],
+   "expect": "The 11004 napkins at 17 napkins a minute take 648 minutes, 10 hours 48 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "994356",
+    "6"
+   ],
+   "expect": "The 994356 napkins at 6 napkins a minute take 165726 minutes, 2762 hours 6 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "995377",
+    "68"
+   ],
+   "expect": "The 995377 napkins at 68 napkins a minute take 14638 minutes, 243 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "252566",
+    "10"
+   ],
+   "expect": "The 252566 napkins at 10 napkins a minute take 25257 minutes, 420 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "381408",
+    "41"
+   ],
+   "expect": "The 381408 napkins at 41 napkins a minute take 9303 minutes, 155 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "813249",
+    "71"
+   ],
+   "expect": "The 813249 napkins at 71 napkins a minute take 11455 minutes, 190 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "6917",
+    "15"
+   ],
+   "expect": "The 6917 napkins at 15 napkins a minute take 462 minutes, 7 hours 42 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "393988",
+    "35"
+   ],
+   "expect": "The 393988 napkins at 35 napkins a minute take 11257 minutes, 187 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "668550",
+    "14"
+   ],
+   "expect": "The 668550 napkins at 14 napkins a minute take 47754 minutes, 795 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "763090",
+    "100"
+   ],
+   "expect": "The 763090 napkins at 100 napkins a minute take 7631 minutes, 127 hours 11 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "packs",
+   [
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "1000001",
+    "12"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "2.5",
+    "12"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "585",
+    "0"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "585",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "585",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "585",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "585",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "6.40",
+    "585"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "6.40",
+    "585"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "12",
+    "0",
+    "585"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "12",
+    "6.405",
+    "585"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "12",
+    "6.40",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "time",
+   [
+    "585",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "585",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "585",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
